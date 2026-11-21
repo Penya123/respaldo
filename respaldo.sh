@@ -8,5 +8,5 @@ sudo mariadb-dump --databases sistemas --single-transaction > $(pwd)/misRespaldo
 
 # Subir el commit a GitHub
 git add .
-git commit -m $FECHA
+git commit -m "PRUEBA $FECHA"
 git push origin main
