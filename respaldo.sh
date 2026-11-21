@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-echo "Prueba: commit por ssh"
+FECHA=$(date +%Y_%m_%d[%H:%M:%S])
+mkdir -p $(pwd)/misRespaldos
+sudo mariadb-dump --all-databases > $(pwd)/misRespaldos/$FECHA.sql
