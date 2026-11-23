@@ -1,0 +1,2 @@
+0 */10 * * * $(pwd)/respaldo/respaldo.sh >> $(pwd)/respaldo/cron.log 2>&1
+
