@@ -27,3 +27,9 @@ fatal: not a git repository (or any of the parent directories): .git
 fatal: not a git repository (or any of the parent directories): .git
 fatal: not a git repository (or any of the parent directories): .git
 2026_11_24[00:00:01]
+[main 92b5a00] 2026_11_24[00:00:01]
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ rename misRespaldos/{sistemas_2026_11_23[20:06:53].sql => sistemas_2026_11_24[00:00:01].sql} (99%)
+To github.com:Penya123/respaldo.git
+   5f3c964..92b5a00  main -> main
+2026_11_24[10:00:01]
