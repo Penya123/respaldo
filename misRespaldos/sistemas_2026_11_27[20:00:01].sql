@@ -40,7 +40,7 @@ CREATE TABLE `alumnos` (
   `foto` varchar(200) DEFAULT NULL,
   `especialidad` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=57 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -84,7 +84,14 @@ INSERT INTO `alumnos` VALUES
 (49,'2024030684','ACOSTA SANCHEZ HUGO ENRIQUE','Desconocido',0,'https://placehold.co/200x200?text=Foto','Tecnologias de la informacion'),
 (50,'2024030703','LIZÁRRAGA CORONADO XIMENA JUDITH','Desconocido',0,'https://placehold.co/200x200?text=Foto','Tecnologias de la informacion'),
 (55,'69','Christian','Su casa',1,'/img/alumnos/69-1794019793263-9667.jpeg','Tecnologias de la Información'),
-(56,'67','Eban','Al chile no se',1,'/img/alumnos/67-1794019828595-6383.jpg','Tecnologias de la Información');
+(56,'67','Eban','Al chile no se',1,'/img/alumnos/67-1794019828595-6383.jpg','Tecnologias de la Información'),
+(57,'2024030393','Jorge Luis Sandoval Urenda','Veracruz 1103',1,'/img/alumnos/2024030393-1795820215272-5654.jpg','Tecnologias de la Información'),
+(58,'2024030367','Marcos de Jesús Prado Gonzales','Mercado de las Flores',1,'/img/alumnos/2024030367-1795820729105-4201.png','Tecnologias de la Información'),
+(59,'2024030447','Larios Gael Tostado','Jabalíes',1,'/img/alumnos/2024030447-1795820872123-4990.png','Tecnologias de la Información'),
+(60,'2024030370','José Ángel García Plascencia','Las Plasas',1,'/img/alumnos/2024030370-1795822414359-5860.jpg','Tecnologias de la Información'),
+(61,'2024030388','Andrea Carrillo Mejía','Rio Yaqui 270',1,'/img/nofoto.png','Tecnologias de la Información'),
+(62,'2024030349','Luis Vazquez Castillo','Osa Mayor 3519',1,'/img/nofoto.png','Tecnologias de la Información'),
+(63,'204030399','Marcus Rocko de Jesús Gonzales Prado','Rockolandía',1,'/img/nofoto.png','Tecnologias de la Información');
 /*!40000 ALTER TABLE `alumnos` ENABLE KEYS */;
 UNLOCK TABLES;
 COMMIT;
@@ -99,4 +106,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-11-27 10:00:01
+-- Dump completed on 2026-11-27 20:00:01
